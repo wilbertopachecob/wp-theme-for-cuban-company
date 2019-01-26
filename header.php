@@ -587,7 +587,7 @@ $("#menu-menu-principal").find('li:eq(14)').find('a:eq(0)').attr('target','_blan
     </div>
 
     <div class="clearfix"></div>
-
+<!-- 
 <div id="second-menu">
     <div class="second-menu-img">
         <img style="cursor: pointer;" onclick="imgSecondMenuClicked();" src="<?php echo get_stylesheet_directory_uri(); ?>/images/menu1_img.png">
@@ -599,7 +599,7 @@ $("#menu-menu-principal").find('li:eq(14)').find('a:eq(0)').attr('target','_blan
         <img style="cursor: pointer;" onclick="imgThirdMenuClicked();" src="<?php echo get_stylesheet_directory_uri(); ?>/images/menu1_img.png">
     </div>
     <div class="third-menu-text"></div>
-</div>
+</div> -->
 
 
 

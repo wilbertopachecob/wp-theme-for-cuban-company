@@ -39,6 +39,7 @@
     position: fixed;
     top: 20;
     width: 100%;
+    background-color: white;
 
 }
 .item_info{
@@ -301,7 +302,7 @@ and (max-width : 450px) {
 
     #second-menu, #third-menu{
          background-color: #286e80;
-         position: absolute;
+         position: fixed;
          width: 100%;
          padding: 4px 25px;
      }
