@@ -8,9 +8,12 @@
         background-color: #68A4BC;
         margin: auto;
     }
+    #header{
+        z-index: 1 !important;
+    }
 </style>
 <div class="clearfix"></div>
-<div id="super_contenedor" style="width: 100%;">
+<div id="super_contenedor" style="width: 100%; position: absolute; margin-top:3.5em;">
 <div id="wrapper" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0px; padding-right: 0px;">
     <div style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/autor_fondo.jpg'); height: 60px; margin-top: 20px;"></div>
     <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
