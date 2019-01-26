@@ -1,0 +1,95 @@
+#myCarousel{
+     padding: 0;
+}
+
+#myCarousel .container{
+    padding: 0;
+    max-width: 100%;
+}
+
+.carousel-indicators li{
+    background-color: #ffffff;
+    border-color: transparent;
+}
+
+.carousel-indicators .active{
+    background-color: #1F414F;
+}
+
+.fa-chevron-left::before{
+    content: url("../images/flecha-left.png");
+    /*transform:  rotate(-90);*/
+}
+
+.fa-chevron-right::before{
+    content: url("../images/flecha-right.png");
+    /*transform:  rotate(90);*/
+}
+
+/*parche*/
+.glyphicon-chevron-right::before {
+    content: "";
+}
+.glyphicon-chevron-left::before {
+    content: "";
+}
+
+.carousel-central-img {
+    left: 50%;
+    list-style: outside none none;
+    margin-left: -30%;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    top: 50%;
+    margin-top: -45px;
+    z-index: 15;
+}
+
+.carousel-central-img img{
+    width: 90px;
+    height: 90px;
+}
+
+@media only screen
+and (max-width : 450px) {
+
+   #myCarousel .carousel-inner div{
+       height: 250px;
+   }
+
+   #myCarousel .carousel-inner img {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        max-width: none;
+        /*por aqui anda la cosa, seria bueno saber el tamaño de la imagen**********/
+        left: 50%;
+        transform: translateX(-50%);
+   }
+}
+
+/*.home-services .carousel {margin-bottom: 0px; height: auto;}
+.home-services .carousel-caption{z-index: 10;}
+.home-services .carousel .item{height: auto;}
+
+.home-services .container{padding:20px 50px;background: #B88B6B;height: auto;}
+.home-services .container-text{margin-top:30px;color:#FFFFFF;padding:20px 10px;border-top:solid 1px;border-bottom:solid 1px;}
+.home-services .container-text > h1{font-size: 40px;margin-bottom: 20px;}
+
+.home-services .carousel-control{width: 5%;}
+.home-services .carousel-control > span{left: 25% !important;}
+
+.home-services .col-left{padding: 0;right: -49px;}
+.home-services .col-left > img{position: absolute;right: -1px;top: -35px;}
+
+.home-services .carousel-indicators{bottom: 10px;}
+.home-services .carousel-indicators li{border: 1px solid #CEB9A6;}
+.home-services .carousel-indicators .active{background-color:#CEB9A6;}
+
+.home-services .fa-chevron-left{top: 50%;position: absolute;left: 25%;}
+.home-services .fa-chevron-right{top: 50%;position: absolute;right: 25%;}
+
+.carousel-control.left{left: 3px;}
+.carousel-control.right{right: 3px;}*/

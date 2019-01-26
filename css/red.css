@@ -1,0 +1,6 @@
+a, a:link, a:visited {
+color:#FF0000;
+}
+#header #hearderimg{
+background:transparent url('red.jpg') left top no-repeat;
+}

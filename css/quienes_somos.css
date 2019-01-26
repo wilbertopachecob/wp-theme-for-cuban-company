@@ -1,0 +1,40 @@
+/*.somos-jefe{margin-bottom: 25px;}
+.somos-jefe .post{padding: 0;margin: 0;overflow: auto;}
+.somos-jefe-foto{padding: 0;}
+.somos-jefe-foto > img{display: block;height: auto;max-width: 100%;}
+.somos-jefe-border{background-image: url('../images/fondo-somos-jefe.jpg');height: 5px;
+    float: left;
+    width: 100%;}
+
+.somos-personal-title{margin: 15px;color: #000000;font-size: 13pt;}
+.somos-personal-text{font-size: 12pt;margin-bottom: 55px;}
+
+.lista_personal{margin-top: 25px;font-size: 12pt;padding: 0;}
+.lista_personal li{margin-bottom: 15px;min-height: 220px;padding: 0;}
+.lista_personal li .fondo-personal{background: linear-gradient(to bottom, #ffffff 30%, #f7f7f7) repeat scroll 0% 0%;min-height: 225px;}
+.lista_personal .metas_personal{background: #ffffff;margin-top: 25px;}
+.lista_personal .metas_personal strong{color: #363636;font-weight: 100;}
+.lista_personal .metas_personal p{color: #363636;font-family: "Helvetica Lt" !important;font-size: 13px;line-height: 0.5 !important;}
+
+.somos-jefe-text{padding-left: 50px;}
+.somos-jefe-text > p:nth-child(1){display: none;}
+.somos-jefe-text > p{font-size: 12pt;height: 60px;overflow: hidden}
+.somos-jefe-title{font-size: 13pt;color: #545454;font-weight: bold;margin: 10px 0px;padding-left: 0;}
+.leer-mas{ padding: 7px 30px;color: #935E3C;border-radius: 20px;border: 1px solid #935E3C;background-color: #ffffff;margin-bottom: 5px;}
+
+.modal{z-index: 100040 !important;}
+.modal-dialog{width: 50%;}
+.modal-header .close{background: #BD9272;padding: 10px;}
+.modal-header{padding: 0px;border-bottom: 0px solid #e5e5e5;}
+.modal-title{float: left;
+    margin-left: 45%;
+    margin-bottom: 5%;
+    font-family: "Helvetica Bd";
+    font-size: 18px;
+    color: #545454;}
+.modal-body{overflow: auto;height: 60vh;}
+.modal-body > img{float: left;display: block;height: auto;max-width: 40%;position: absolute;
+    top: 0px;}
+.modal-body > p{font-size: 13px;margin-left: 45%;}
+
+#mega-menu-wrap-max_mega_menu_1{z-index: 1 !important;}*/

@@ -1,0 +1,5 @@
+[07-Sep-2015 16:14:12 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readycode/public_html/demos/imagenart/wp-content/themes/imagenart/index.php on line 1
+[07-Sep-2015 16:42:01 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readycode/public_html/demos/imagenart/wp-content/themes/imagenart/index.php on line 1
+[07-Sep-2015 17:06:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readycode/public_html/demos/imagenart/wp-content/themes/imagenart/index.php on line 1
+[29-Sep-2015 16:08:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readycode/public_html/demos/imagenart/wp-content/themes/imagenart/index.php on line 1
+[29-Sep-2015 16:08:47 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readycode/public_html/demos/imagenart/wp-content/themes/imagenart/index.php on line 1
