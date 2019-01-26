@@ -190,7 +190,7 @@
                 top = heightCarousel+70 - top;
              
                 
-            if (this.scrollY !== 0) {console.log(this.scrollY);
+            if (this.scrollY !== 0) {
             $('#header').css({'position': 'fixed'});
                 $('#super_contenedor').css({
                     'margin-top': '3%',
