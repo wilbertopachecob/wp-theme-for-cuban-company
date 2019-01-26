@@ -29,6 +29,28 @@
     src: url('../fonts/01_Helvetica_Neue_LT_Std/HelveticaNeueLTStd-Roman.otf');
 }*/
 
+#super_contenedor {
+    /* position: absolute;*/
+    background-color: white;
+    margin-top: 27%;
+}
+
+#header {
+    position: fixed;
+    top: 20;
+    width: 100%;
+
+}
+.item_info{
+    background-color:white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    padding:10px;
+    margin-bottom:50px;
+}
+
 @font-face {
     font-family: "Roboto";
     font-style: normal;
@@ -208,7 +230,14 @@ form#searchform input#searchsubmit {
 
 @media only screen
 and (max-width : 450px) {
-    #logo, #menu-cabecera, #search_rs_idioma, #offset_cabcera{
+    #super_contenedor {
+        position: absolute;
+        margin-top: 1%;
+    }
+    #header {
+        position: relative;
+    }
+    #logo, #menu-cabecera, #search_rs_idioma, #offset_cabcera, #email-link{
         display: none;
     }
 
@@ -222,8 +251,10 @@ and (max-width : 450px) {
     }
 
     #cabecera{
+        margin-top: 1%;
+        margin-bottom: 1%;
         width: 100%;
-        padding: 0 5px;
+        padding: 0 10px;
         margin-left: 0;
         margin-right: 0;
     }

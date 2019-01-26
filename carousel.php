@@ -3,29 +3,6 @@
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendors/owl.carousel.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendors/owl.carousel.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/library/owl.carousel.js"></script>
-<style>
-    #super_contenedor {
-        /* position: absolute;*/
-        background-color: white;
-        margin-top: 27%;
-    }
-
-    #header {
-        position: fixed;
-        top: 20;
-        width: 100%;
-
-    }
-    .item_info{
-        background-color:white;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 15%;
-        padding:10px;
-        margin-bottom:50px;
-    }
-</style>
 <div id="myCarousel" style="margin-top:50px;" class="carousel slide col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <?php
     //$args = array('post_type' => 'icimaf_noticias', 'posts_per_page' => $cant);
@@ -211,16 +188,18 @@
             let heightCarousel = $('.carousel-inner').height();
             var top = this.scrollY,
                 top = heightCarousel+70 - top;
+             
                 
-            if (this.scrollY !== 0) {
+            if (this.scrollY !== 0) {console.log(this.scrollY);
+            $('#header').css({'position': 'fixed'});
                 $('#super_contenedor').css({
-                    'margin-top': '30px',
+                    'margin-top': '3%',
                     'position': 'absolute',
                     'top': top
                 });
                 $(".carousel-indicators").hide();
                 $("#myCarousel").css({
-                    'margin-top': '5%',
+                    'margin-top': '5em',
                     'position': 'fixed'
                     });
             }

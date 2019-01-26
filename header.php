@@ -15,7 +15,7 @@
         <link rel="stylesheet" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/css/header.css" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>">
-        <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendors/jquery-1.9.1.js">	</script>
+        <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendors/jquery.js">	</script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendors/respond.matchmedia.addListener.min.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendors/respond.min.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendors/modernizr-2.6.2.min.js"></script>
@@ -202,8 +202,10 @@
                     {
                         depart_width = width_div/count_departs;
                     }
-                    $('.departamento').css('maxWidth', depart_width+'px');
-                    $('.departamento').css('minWidth', depart_width+'px');
+                    $('.departamento').css({
+                        'maxWidth': depart_width+'px',
+                        'minWidth': depart_width+'px'
+                    });
 
                     //y ahora(que todos los departs tienen el mismo ancho)
                     // se le pone el ancho al div que contiene los departamentos
@@ -480,11 +482,6 @@
                 </a>
             </div>
 
-            <div id="idioma-movil" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-               <?php //echo do_shortcode('[google-translator]'); ?>
-                <?php //echo do_shortcode('[glt language="Spanish" label="esp"]'); ?> | <?php //echo do_shortcode('[glt language="English" label="eng"]'); ?>
-            </div>
-
             <div id="logo" class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
                 <a href="<?php bloginfo('url'); ?>">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logotipo.png">
@@ -509,7 +506,7 @@ $("#menu-menu-principal").find('li:eq(14)').find('a:eq(0)').attr('target','_blan
         left: 0;margin-left: 40px;"></i>
                 Correo
             </div>-->
-            <div style="
+            <div id="email-link" style="
                 padding-bottom: 5px;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
